@@ -3,7 +3,7 @@ title: "L'importance de l'accessibilité dans le développement web"
 description: "L'accessibilité web est cruciale pour créer des sites inclusifs."
 author: "Marie Dubois"
 date: 2024-12-15
-image: "/images/accessibility-in-web.webp"
+image: "src/images/accessibility-in-web.webp"
 tags: ["Accessibilité", "Développement Web", "Inclusion"]
 featured: true
 slug: "importance-accessibilite-developpement-web"
