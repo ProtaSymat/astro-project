@@ -4,7 +4,7 @@
 
 **PixelPerfect** est une agence web de pointe, spécialisée dans la création de sites et d'applications web modernes. Nous utilisons des technologies de pointe pour offrir une expérience utilisateur sans pareil à travers un site vitrine innovant.
 
-![Aperçu de PixelPerfect](/images/preview.webp)
+![Aperçu de PixelPerfect](https://astro-project-lemon.vercel.app/images/preview.webp)
 
 [🔗 **Visitez notre site**](https://astro-project-lemon.vercel.app/)
 
