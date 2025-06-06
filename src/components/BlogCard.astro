@@ -28,16 +28,27 @@ const formattedDate = date.toLocaleDateString('fr-FR', {
   month: 'long',
   day: 'numeric'
 });
+
+let imageModule;
+if (image) {
+  try {
+    imageModule = await import(/* @vite-ignore */ image);
+  } catch (error) {
+    console.error('Erreur lors du chargement de l\'image:', error);
+  }
+}
 ---
 
 <article class={`bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group ${featured ? 'ring-2 ring-blue-500' : ''}`}>
   {image && (
     <div class="aspect-video overflow-hidden">
-      <img 
-        src={image} 
+      <Image 
+        src={imageModule.default} 
         alt={title}
         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
         loading="lazy"
+        width={800}
+        height={450}
       />
     </div>
   )}
