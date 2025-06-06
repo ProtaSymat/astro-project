@@ -8,8 +8,7 @@ export default defineConfig({
     react()
   ],
 
-  output: 'server', // ou 'hybrid' selon vos besoins
-  adapter: vercel(),
+  output: 'static', // ou 'hybrid' selon vos besoins
 
   build: {
     assets: 'assets'
