@@ -40,8 +40,8 @@ if (image) {
 <article class={`bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group ${featured ? 'ring-2 ring-blue-500' : ''}`}>
   {image && (
     <div class="aspect-video overflow-hidden">
-      <Image 
-        src={imageModule.default} 
+      <img 
+        src={image} 
         alt={title}
         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
         loading="lazy"
