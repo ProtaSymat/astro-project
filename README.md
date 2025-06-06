@@ -158,6 +158,6 @@ Ce projet est sous licence MIT. Voir [LICENSE](LICENSE) pour plus de détails.
 - Site web : [https://astro-project-lemon.vercel.app/](https://astro-project-lemon.vercel.app/)
 - Email : [mathys@pixelperfect.fr](mailto:mathys@pixelperfect.fr)
 - Téléphone : +33 1 23 45 67 89
-- Adresse : 123 Rue de la Tech, 75001 Paris
+- Adresse : 56 rue Cauchoise, 76000 Rouen
 
 Développé avec ❤️ par **l'équipe PixelPerfect**.
