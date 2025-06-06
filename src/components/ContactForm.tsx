@@ -302,6 +302,7 @@ const ContactForm = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Form */}
             <div className="bg-white rounded-2xl shadow-xl p-8">
+              <form onSubmit={handleSubmit} className="space-y-6">
               <div className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
@@ -473,6 +474,7 @@ const ContactForm = () => {
                   )}
                 </button>
               </div>
+              </form>
             </div>
 
             {/* Services & Benefits */}
