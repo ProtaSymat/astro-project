@@ -70,7 +70,7 @@ const ContactForm = () => {
       icon: MapPin,
       title: "Adresse",
       description: "Rencontrons-nous dans nos bureaux",
-      contact: "Paris, France",
+      contact: "Rouen, France",
       link: "#"
     },
     {
@@ -132,7 +132,6 @@ const ContactForm = () => {
       [name]: type === 'checkbox' ? (e.target as HTMLInputElement).checked : value
     }));
 
-    // Effacer l'erreur du champ modifié
     if (errors[name as keyof FormErrors]) {
       setErrors(prev => ({
         ...prev,
